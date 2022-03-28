@@ -1,0 +1,43 @@
+OVERARCHING PLAN:
+
+phase1: 
+0. Create base system where you can log in and transfer funds, and start off with some coin. Also accounts save when system not online. 
+1. Create web server where you can log in from multiple devices with basic UI **finished
+ORGANIZE 
+
+phase2: 
+0. Add a simple blockchain (client-server for now), and SECURE TRANSACTIONS(keypairs, blocks, chain, mining, proof-of-work/proof-of-stake) -in progress
+1. Add simple security (email confirm, password confirm, hash the password, stuff like that)
+2. Better UI, phone compatibility (SOMAD)
+ORGANIZE.... 
+HYPE.... 
+DEPLOYYYY... (beta probably, only give access to some people)
+
+phase3: (not sure yet)
+0. make a p2p network
+1. create an application for miners and nodes
+
+
+phase4:
+0. NFT TIME BABY
+
+//-------------------------------------------------------------------------------------\\
+IMPLEMENTATION WANTS:
+- QR CODE implementation
+- NFT
+- The website will act as a wallet
+- p2p server
+
+CONCERNS:
+- how can we make this decentralized?
+- need better way to let know what user is being transfered coins
+- for deployment: https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment
+
+ORGANIZATION:
+- sep folder for data, code and testing
+- I will be using the Functional structure
+//-------------------------------------------------------------------------------------\\
+
+#NOTES FOR FLASK_LOGIN
+the issue was that i imported current_user in the top, I should import current_user in the method I think
+(if this is the case i dont know why it didnt work before) (actually i think its because I messed up my load_user LMAOO)
