@@ -1,4 +1,4 @@
-thunder-red-star/hello.java
+//thunder-red-star/hello.java
 // hello world + test
 
 public class Main {
